@@ -37,34 +37,34 @@ while (First_Row[i] != First_Row[r] and First_Row[r] != First_Row[q] or Sec_Row[
   if x==0 :
     First_Row[y]=0
   elif x==1:
-    Sec_Row[y]==0
+    Sec_Row[y]=0
   elif x==2 :
-    Ther_Row[y]==0
+    Ther_Row[y]=0
 
  elif f == 2:
    if x==0 :
     First_Row[y]=1
    elif x==1:
-    Sec_Row[y]==1
+    Sec_Row[y]=1
    elif x==2 :
-    Ther_Row[y]==1
+    Ther_Row[y]=1
 
  x,y,f=player2()
  if f == 1:
   if x==0 :
     First_Row[y]=0
   elif x==1:
-    Sec_Row[y]==0
+    Sec_Row[y]=0
   elif x==2 :
-    Ther_Row[y]==0
+    Ther_Row[y]=0
 
  elif f == 2:
    if x==0 :
     First_Row[y]=1
    elif x==1:
-    Sec_Row[y]==1
+    Sec_Row[y]=1
    elif x==2 :
-    Ther_Row[y]==1
+    Ther_Row[y]=1
 
  for i in range (0, 3):
     print (First_Row[i], end =" ")
@@ -75,11 +75,4 @@ while (First_Row[i] != First_Row[r] and First_Row[r] != First_Row[q] or Sec_Row[
  for i in range (0, 3):
     print (Ther_Row[i], end =" ")
  print('\t')
- for i in range (0, 3):
-    print (First_Row[i], end =" ")
- print('\n')
- for i in range (0, 3):
-    print (Sec_Row[i], end =" ")
- print('\n')
- for i in range (0, 3):
-    print (Ther_Row[i], end =" ")
+
